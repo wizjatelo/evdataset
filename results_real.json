@@ -1,0 +1,139 @@
+{
+  "competition": "IEEE DataPort Power & Energy AI",
+  "dataset": "EV-HybridDataset-2026",
+  "tasks": {
+    "charging_demand": [
+      {
+        "model": "XGBoost",
+        "MAE": 0.3803,
+        "RMSE": 0.4673,
+        "MAPE": 1.4,
+        "R2": 0.9976
+      },
+      {
+        "model": "LSTM",
+        "MAE": 0.8166,
+        "RMSE": 1.0178,
+        "MAPE": 165.98,
+        "R2": -0.0561
+      },
+      {
+        "model": "LSTM-Transformer",
+        "MAE": 0.7913,
+        "RMSE": 0.9951,
+        "MAPE": 116.89,
+        "R2": -0.0094
+      },
+      {
+        "model": "ST-GCN",
+        "MAE": 0.3633,
+        "RMSE": 0.3959,
+        "MAPE": 98.19,
+        "R2": -0.0736
+      },
+      {
+        "model": "CAT-Former",
+        "MAE": 0.793,
+        "RMSE": 0.9925,
+        "MAPE": 117.32,
+        "R2": -0.0042
+      },
+      {
+        "model": "Ensemble Stack",
+        "MAE": 0.7896,
+        "RMSE": 0.9919,
+        "MAPE": 105.14,
+        "R2": -0.003
+      }
+    ],
+    "battery_soh": [
+      {
+        "model": "XGBoost",
+        "MAE": 0.6829,
+        "RMSE": 0.9557,
+        "MAPE": 0.71,
+        "R2": 0.8304
+      },
+      {
+        "model": "LSTM",
+        "MAE": 0.3904,
+        "RMSE": 0.535,
+        "MAPE": 207.01,
+        "R2": 0.7547
+      },
+      {
+        "model": "LSTM-Transformer",
+        "MAE": 0.414,
+        "RMSE": 0.589,
+        "MAPE": 221.76,
+        "R2": 0.7027
+      },
+      {
+        "model": "ST-GCN",
+        "MAE": 0.4574,
+        "RMSE": 0.5897,
+        "MAPE": 93.81,
+        "R2": -1.0106
+      },
+      {
+        "model": "CAT-Former",
+        "MAE": 0.367,
+        "RMSE": 0.5181,
+        "MAPE": 195.79,
+        "R2": 0.7699
+      },
+      {
+        "model": "Ensemble Stack",
+        "MAE": 0.3442,
+        "RMSE": 0.4775,
+        "MAPE": 161.85,
+        "R2": 0.8046
+      }
+    ],
+    "energy_consumption": [
+      {
+        "model": "XGBoost",
+        "MAE": 0.4913,
+        "RMSE": 0.626,
+        "MAPE": 2.55,
+        "R2": 0.9368
+      },
+      {
+        "model": "LSTM",
+        "MAE": 0.813,
+        "RMSE": 1.0052,
+        "MAPE": 234.74,
+        "R2": -0.0572
+      },
+      {
+        "model": "LSTM-Transformer",
+        "MAE": 0.7862,
+        "RMSE": 0.9852,
+        "MAPE": 122.81,
+        "R2": -0.0156
+      },
+      {
+        "model": "ST-GCN",
+        "MAE": 0.7848,
+        "RMSE": 0.8721,
+        "MAPE": 100.51,
+        "R2": -1.2792
+      },
+      {
+        "model": "CAT-Former",
+        "MAE": 0.7936,
+        "RMSE": 0.9893,
+        "MAPE": 144.59,
+        "R2": -0.0239
+      },
+      {
+        "model": "Ensemble Stack",
+        "MAE": 0.7907,
+        "RMSE": 0.9839,
+        "MAPE": 146.81,
+        "R2": -0.0128
+      }
+    ]
+  },
+  "training_seconds": 188888888888888.3
+}

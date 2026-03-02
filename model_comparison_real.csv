@@ -1,0 +1,19 @@
+model,MAE,RMSE,MAPE,R2,task
+XGBoost,0.3803,0.4673,1.4,0.9976,charging_demand
+LSTM,0.8166,1.0178,165.98,-0.0561,charging_demand
+LSTM-Transformer,0.7913,0.9951,116.89,-0.0094,charging_demand
+ST-GCN,0.3633,0.3959,98.19,-0.0736,charging_demand
+CAT-Former,0.793,0.9925,117.32,-0.0042,charging_demand
+Ensemble Stack,0.7896,0.9919,105.14,-0.003,charging_demand
+XGBoost,0.6829,0.9557,0.71,0.8304,battery_soh
+LSTM,0.3904,0.535,207.01,0.7547,battery_soh
+LSTM-Transformer,0.414,0.589,221.76,0.7027,battery_soh
+ST-GCN,0.4574,0.5897,93.81,-1.0106,battery_soh
+CAT-Former,0.367,0.5181,195.79,0.7699,battery_soh
+Ensemble Stack,0.3442,0.4775,161.85,0.8046,battery_soh
+XGBoost,0.4913,0.626,2.55,0.9368,energy_consumption
+LSTM,0.813,1.0052,234.74,-0.0572,energy_consumption
+LSTM-Transformer,0.7862,0.9852,122.81,-0.0156,energy_consumption
+ST-GCN,0.7848,0.8721,100.51,-1.2792,energy_consumption
+CAT-Former,0.7936,0.9893,144.59,-0.0239,energy_consumption
+Ensemble Stack,0.7907,0.9839,146.81,-0.0128,energy_consumption
